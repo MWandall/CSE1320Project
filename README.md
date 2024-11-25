@@ -40,8 +40,15 @@ Ascii Adventure is a console-based game in C where the player can interact with 
 Placeholder text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 ### Prerequisites
-    - gcc compiler
-    - anything else we may need
+    - BASH with mingw32
+`mingw32-make`
+`./program`
+    -Clean Up (Optional): remove all the compiled .o files and the program executable
+`mingw32-make clean`
+
+    - OR
+`gcc arrays.c fileHandling.c menuMain.c printFunc.c stats.c -Wall`
+`./a.exe`
 
 ### Installation 
     ~ placeholder ~
@@ -50,12 +57,7 @@ Placeholder text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed d
     gcc main.c -o customName
 
 ## Usage 
-    instructions on opening terminal
-    default run:
-    ./a.exe
-
-    if you chose to name your program:
-    ./customName.exe
+    pleh gam
 
 ## Contributors 
     - Mitchell Wandall
